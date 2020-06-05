@@ -10,3 +10,19 @@ Heaps are used when the highest or lowest order/priority element needs to be rem
 
 Binary heaps are usually implemented using arrays, which save overhead cost of storing pointers to child nodes.
 
+<hr/>
+
+## Possible implementation of Priority Queue
+
+* Unsorted Array
+    * Insertion: O(1)
+    * Deletion: O(n)
+    * Get: O(n)
+
+* Sorted Array
+    * Insertion: O(n)
+    * Deletion: O(n)
+    * Get: O(n) or O(1)
+
+* 
+
