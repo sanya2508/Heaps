@@ -86,6 +86,51 @@ Binary heaps are usually implemented using arrays or vectors, which save overhea
 
 ## <a href="https://github.com/sanya2508/Heaps/blob/master/insertionInHeaps.cpp"> Insertion in Heap</a>
 
-* Upheapify (percolate up): At any point, if the corresponding priority of the child is greater than that of parent, then we are going to swap the parent and child till the point the child or the new element goes at such a point that the priority of this child is going to be lower than that of it's parent.
+*` Upheapify (percolate up)`: At any point, if the corresponding priority of the child is greater than that of parent, then we are going to swap the parent and child till the point the child or the new element goes at such a point that the priority of this child is going to be lower than that of it's parent.
 * Insertion: Add the element at the last of the heap and apply upheapify.
 * Time complexity of insertion of one element: O(logn) in worst case.
+
+<hr/>
+
+## <a href="https://github.com/sanya2508/Heaps/blob/master/deletionOfPeakElementsInHeap.cpp">Delete peak(root) element from heap</a>
+ * Swap the element present at zero index with the element present at arr.size()-1 (right most element of last level).
+ * Remove the last element.
+ * Apply downheapify (percolate down).
+ * `Downheapify`: If any parent is having a priority lesser than it's child, it will have a fight between parent, first children and second children. And among these three whosoever is having highest priority becomes the new parent and rest of them will become the child. 
+ * Time complexity: O(logn)
+ 
+</hr>
+
+## <a href="https://github.com/sanya2508/Heaps/blob/master/buildHeapUnoptimizedFromArray.cpp">Build heaps from given array (Unoptimised)</a>
+ * Time complexity: O(nlogn)
+ * Upheapify used.
+ * Most of the elements are present at the last level, and we are doing a lot of work for the elements present at the lower levels (for last level we are moving up with h iterations, for second last level (h-2). . . whereas for the nodes present at the very root or first level, we are doing very less amount of work.
+ 
+ 
+## <a href="https://github.com/sanya2508/Heaps/blob/master/buildHeapOptimizedFromArray.cpp">Build heaps fromm given array (Optimized)</a>
+
+ * Elements present at last level = (n+1)/2
+ * We can optimize for the last level, second last level. . .
+ * We can do some expensive operations for root nodes or nodes at first level, second level. . .
+ * Downheapify used.
+ * Time complexity: O(n)
+ 
+<hr/>
+
+## Delete any rode apart from root
+ * Time complexity O(logn)
+ * Update the value of node to be deleted with the max possible priority value (INT_MAX in case of max heap) and with min possible priority value (INT_MIN in case of min heap).
+ * Perculate it up in order until it becmoes the root node.
+ * Swap root with the last node.
+ * Pop out the last node.
+ * Apply downheapify to make the heap.
+ * Update the array.
+
+<hr/>
+
+## <a href="https://github.com/sanya2508/Heaps/blob/master/heapSort.cpp">Heapsort</a>
+ * Optimized as compared to selection sort.
+ * Time complexity O(nlogn).
+ * Inplace sorting, but not stable sorting.
+ * Space complexity O(logn).
+ 
