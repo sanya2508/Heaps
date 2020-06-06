@@ -138,11 +138,9 @@ Binary heaps are usually implemented using arrays or vectors, which save overhea
 
 ## <a href="https://github.com/sanya2508/Heaps/blob/master/priority%20queue%20STL.cpp">Priority queue STL</a>
 
-<hr/>
 
 ## <a href="https://github.com/sanya2508/Heaps/blob/master/Functor.cpp"> Functional Object or Functor</a>
 
-<hr/>
 
 ## <a href="https://github.com/sanya2508/Heaps/blob/master/priority%20queue%20comparator%20class.cpp"> Priority queue STL comparator class </a>
 
@@ -153,5 +151,23 @@ Binary heaps are usually implemented using arrays or vectors, which save overhea
 <hr/>
 
 ## <a href="https://github.com/sanya2508/Heaps/blob/master/mergeKSorted%20Challenge.cpp"> Merge K sorted Array using Heaps </a>
+
+<hr/>
+
+## Running median of a stream of integers
+*Given an integer stream, find the median of all the elements as soon as we get a new integer.*
+ * Use a max heap and a min heap.
+
+<hr/>
+
+## <a href="https://github.com/sanya2508/Heaps/blob/master/Finding%20k%20largest%20elements%20in%20a%20running%20stream.cpp"> Finding K largest elements in a running stream </a>
+ * Make a min heap of size k.
+ * Compare the next coming element with the smallest element in heap.
+ * If it's greater, replace that element.
+ * Worst case complexity: O(nlogk)
+
+<hr/>
+
+## Kth smallest element in a row and column wise sorted array
 
 <hr/>
