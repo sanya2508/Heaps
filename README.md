@@ -86,7 +86,7 @@ Binary heaps are usually implemented using arrays or vectors, which save overhea
 
 ## <a href="https://github.com/sanya2508/Heaps/blob/master/insertionInHeaps.cpp"> Insertion in Heap</a>
 
-*` Upheapify (percolate up)`: At any point, if the corresponding priority of the child is greater than that of parent, then we are going to swap the parent and child till the point the child or the new element goes at such a point that the priority of this child is going to be lower than that of it's parent.
+* `Upheapify (percolate up)`: At any point, if the corresponding priority of the child is greater than that of parent, then we are going to swap the parent and child till the point the child or the new element goes at such a point that the priority of this child is going to be lower than that of it's parent.
 * Insertion: Add the element at the last of the heap and apply upheapify.
 * Time complexity of insertion of one element: O(logn) in worst case.
 
