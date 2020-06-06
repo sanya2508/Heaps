@@ -99,7 +99,7 @@ Binary heaps are usually implemented using arrays or vectors, which save overhea
  * `Downheapify`: If any parent is having a priority lesser than it's child, it will have a fight between parent, first children and second children. And among these three whosoever is having highest priority becomes the new parent and rest of them will become the child. 
  * Time complexity: O(logn)
  
-</hr>
+<hr/>
 
 ## <a href="https://github.com/sanya2508/Heaps/blob/master/buildHeapUnoptimizedFromArray.cpp">Build heaps from given array (Unoptimised)</a>
  * Time complexity: O(nlogn)
@@ -134,3 +134,24 @@ Binary heaps are usually implemented using arrays or vectors, which save overhea
  * Inplace sorting, but not stable sorting.
  * Space complexity O(logn).
  
+<hr/>
+
+## <a href="https://github.com/sanya2508/Heaps/blob/master/priority%20queue%20STL.cpp">Priority queue STL</a>
+
+<hr/>
+
+## <a href="https://github.com/sanya2508/Heaps/blob/master/Functor.cpp"> Functional Object or Functor</a>
+
+<hr/>
+
+## <a href="https://github.com/sanya2508/Heaps/blob/master/priority%20queue%20comparator%20class.cpp"> Priority queue STL comparator class </a>
+
+<hr/>
+
+## <a href="https://github.com/sanya2508/Heaps/blob/master/joinTheRopes.cpp">Join the ropes </a>
+
+<hr/>
+
+## <a href="https://github.com/sanya2508/Heaps/blob/master/mergeKSorted%20Challenge.cpp"> Merge K sorted Array using Heaps </a>
+
+<hr/>
