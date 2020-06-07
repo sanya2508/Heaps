@@ -129,10 +129,18 @@ Binary heaps are usually implemented using arrays or vectors, which save overhea
 <hr/>
 
 ## <a href="https://github.com/sanya2508/Heaps/blob/master/heapSort.cpp">Heapsort</a>
- * Optimized as compared to selection sort.
- * Time complexity O(nlogn).
- * Inplace sorting, but not stable sorting.
- * Space complexity O(logn).
+ * Make a max heap of the given elements.
+ * Swap the root node with the last leaf node of the heap.
+ * Remove the swapped last node (greatest given element).
+ * Heap size reduces by 1.
+ * Apply downheapify.
+ * Repeat.
+ * `Optimized as compared to selection sort.`
+ * `Time complexity O(nlogn).`
+ * `Inplace sorting, but not stable sorting(because relative ordering of elements is not being taken care of).`
+ * `Space complexity O(logn).`
+ * `Can be used when there is a lot of memory constraint.`
+ 
  
 <hr/>
 
