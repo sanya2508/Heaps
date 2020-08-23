@@ -52,7 +52,7 @@ Binary heaps are usually implemented using arrays or vectors, which save overhea
  * If generic tree: Height will be greater than logn.
  * If perfect binary tree: We can't ensure that at every level the number of elements will be maintained as a power of 2.
  * If full tree: Height will be greater than logn.
- * If ternary tree or sosmething else: In these kind of situation number of comparisons will increase because number of children will increase.
+ * If ternary tree or something else: In these kind of situation, number of comparisons will increase because number of children will increase.
  
  `Complete Binary Tree`: Every level except the last one is full and the last level is filled up from left to right.
 
